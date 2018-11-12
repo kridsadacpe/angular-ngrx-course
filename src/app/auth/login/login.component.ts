@@ -11,6 +11,7 @@ import { AppState } from '../../reducers';
 import { Login } from '../auth/auth.actions';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
