@@ -50,7 +50,7 @@ const routes: Routes = [
     AuthModule.forRoot(),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
-    EffectsModule.forRoot([])
+    EffectsModule.forRoot([]),
   ],
   providers: [],
   bootstrap: [AppComponent]
